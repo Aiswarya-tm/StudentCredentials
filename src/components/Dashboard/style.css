@@ -1,0 +1,168 @@
+.full-body {
+  background: #0878a4;
+  height: 100vh;
+  padding: 10vh;
+}
+
+.content-body::-webkit-scrollbar {
+  width: 10px;
+}
+
+.content-body::-webkit-scrollbar-track {
+  background: #dee5ef;
+}
+
+.content-body::-webkit-scrollbar-thumb {
+  background: #003d73;
+  /* border-radius: 8px; */
+  height: 20px;
+}
+
+.content-body {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  height: 80vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #003d73 #dee5ef;
+}
+
+.heading-main {
+  color: #003d73;
+  text-align: center;
+}
+
+.descriptions {
+  font-size: 14px;
+  color: #585a56;
+  text-align: justify;
+}
+
+.sub-heading {
+  color: #003d73;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.department-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-departments {
+  background: #1ecfd6;
+  color: #ffffff;
+  width: 350px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.button-departments:hover {
+  transform: scaleY(1.05);
+}
+
+.button-content-departments {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.heading-no {
+  color: #585a56;
+  width: 60px;
+  font-size: 14px;
+}
+.heading-name {
+  color: #585a56;
+  width: 350px;
+  font-size: 14px;
+}
+.heading-id {
+  color: #585a56;
+  width: 250px;
+  font-size: 14px;
+}
+.heading-doc {
+  color: #585a56;
+  width: 400px;
+  font-size: 14px;
+}
+.heading-save {
+  color: #585a56;
+  width: 100px;
+  font-size: 14px;
+}
+.student-list-table {
+  /* border:1px solid #003d73; */
+  box-shadow: 4px 4px 30px rgba(27, 62, 105, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.upload-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.upload-button {
+  background-color: #c05640;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  border-radius: 8px;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.upload-button:hover {
+  transform: scaleY(1.05);
+}
+
+.upload-name {
+  font-size: 11px;
+  width: 350px;
+  margin-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.save-button {
+  background-color: #1ecfd6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  border-radius: 8px;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.save-button:hover {
+  transform: scaleY(1.05);
+}
+
+.avatar-image {
+  width: 150px;
+  height: 170px;
+}
